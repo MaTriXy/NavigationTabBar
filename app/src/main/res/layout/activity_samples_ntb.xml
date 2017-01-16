@@ -21,13 +21,14 @@
             android:layout_weight="1"
             android:padding="10dp">
 
-            <com.gigamole.library.NavigationTabBar
+            <devlight.io.library.ntb.NavigationTabBar
                 android:id="@+id/ntb_sample_1"
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:background="#605271"
+                app:ntb_bg_color="#605271"
                 app:ntb_active_color="#000"
+                app:ntb_scaled="false"
                 app:ntb_inactive_color="#fff"
                 app:ntb_animation_duration="1000"/>
 
@@ -39,12 +40,12 @@
             android:layout_weight="1"
             android:padding="10dp">
 
-            <com.gigamole.library.NavigationTabBar
+            <devlight.io.library.ntb.NavigationTabBar
                 android:id="@+id/ntb_sample_2"
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:background="#d78cd3"
+                app:ntb_bg_color="#d78cd3"
                 app:ntb_active_color="#d78cd3"
                 app:ntb_inactive_color="#d78cd3"/>
 
@@ -56,11 +57,12 @@
             android:layout_weight="1"
             android:padding="10dp">
 
-            <com.gigamole.library.NavigationTabBar
+            <devlight.io.library.ntb.NavigationTabBar
                 android:id="@+id/ntb_sample_3"
                 android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
+                app:ntb_bg_color="#00000000"
                 app:ntb_corners_radius="10dp"
                 app:ntb_inactive_color="#000"
                 app:ntb_preview_colors="@array/red_wine"/>
@@ -82,11 +84,12 @@
             android:layout_weight="1"
             android:padding="10dp">
 
-            <com.gigamole.library.NavigationTabBar
+            <devlight.io.library.ntb.NavigationTabBar
                 android:id="@+id/ntb_sample_4"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
+                app:ntb_bg_color="#00FFFFFF"
                 app:ntb_active_color="#be7818"
                 app:ntb_inactive_color="#be7818"
                 app:ntb_animation_duration="1000"/>
@@ -99,17 +102,18 @@
             android:layout_weight="1"
             android:padding="10dp">
 
-            <com.gigamole.library.NavigationTabBar
+            <devlight.io.library.ntb.NavigationTabBar
                 android:id="@+id/ntb_sample_5"
                 android:layout_width="200dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
-                android:background="@drawable/bg_round_circle"
                 app:ntb_animation_duration="400"
                 app:ntb_preview_colors="@array/red_wine"
-                app:ntb_corners_radius="50dp"
+                app:ntb_corners_radius="25dp"
+                app:ntb_scaled="false"
                 app:ntb_active_color="#8d88e4"
-                app:ntb_inactive_color="#dddfec"/>
+                app:ntb_inactive_color="#dddfec"
+                app:ntb_bg_color="#8d88e4"/>
 
         </FrameLayout>
 
@@ -119,12 +123,12 @@
             android:layout_weight="1"
             android:padding="10dp">
 
-            <com.gigamole.library.NavigationTabBar
+            <devlight.io.library.ntb.NavigationTabBar
                 android:id="@+id/ntb_sample_6"
                 android:layout_width="240dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:background="@drawable/bg_round_rect"
+                app:ntb_bg_color="#4b405c"
                 app:ntb_corners_radius="4dp"
                 app:ntb_preview_colors="@array/polluted_waves"/>
 
