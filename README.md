@@ -35,6 +35,16 @@ Navigation tab bar with colorful interactions.
 
 You can check the sample app [here](https://github.com/DevLight-Mobile-Agency/NavigationTabBar/tree/master/app).
 
+Warn
+====
+```
+This library is not more supported. 
+If you want to add new feature or fix a bug, grab source code and do it. 
+If you think your fix or feature would be useful to other developers, 
+I can add link of your repository to this README file. 
+Thank you for using our libraries.
+```
+
 Download
 ========
 
@@ -320,6 +330,10 @@ Xamarin
 
 Thanks to [Martijn van Dijk](https://github.com/martijn00) for developing Xamarin bindings library for [NavigationTabBar](https://github.com/martijn00/NavigationTabBarXamarin).  
 Plugin is available on [Nuget](https://www.nuget.org/packages/Xam.Plugins.Android.NavigationTabBar/).
+
+## use navbar using materialize css
+navbar using materialize css is really easy and would take just assigning right classes to the html tags and it would create a navigation tab bar using its prewritten css and js files. This can be easily used in html pages using downloaded files or cdn links...
+https://materializecss.com/navbar.html
 
 Credits
 =======
